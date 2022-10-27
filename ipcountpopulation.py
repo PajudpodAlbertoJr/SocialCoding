@@ -1,3 +1,5 @@
+#The code was imported from ipapi.co which displays the population of a specific country.
+
 import requests
 from requests import get
 
