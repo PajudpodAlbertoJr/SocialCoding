@@ -1,5 +1,8 @@
 from requests import get
 
-loc = (get('https://ipapi.co/json/').json())
-loc = loc['latitude']
-print (f"Your IP city location is: {loc}")
+#Gets the IP address latitude coordeinate
+
+def ip_lat():
+  loc = (get('https://ipapi.co/json/').json())
+  loc = loc['latitude']
+  print (f"Your IP city location is: {loc}")
