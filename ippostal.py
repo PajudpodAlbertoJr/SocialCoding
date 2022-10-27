@@ -1,6 +1,7 @@
 from requests import get
 
-loc = (get('https://ipapi.co/json/').json())
-loc = loc['postal']
+def postal():
+  loc = (get('https://ipapi.co/json/').json())
+  loc = loc['postal']
 
-print (f"Your IP city postal is: {loc}")
+  print (f"Your IP city postal is: {loc}")
