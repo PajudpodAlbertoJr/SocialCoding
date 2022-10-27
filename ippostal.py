@@ -1,4 +1,6 @@
-from requests import get
+from requests import get 
+
+#gets the IP address postal code from ipapi.co
 
 def postal():
   loc = (get('https://ipapi.co/json/').json())
