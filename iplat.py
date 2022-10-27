@@ -1,6 +1,6 @@
 from requests import get
 
-#Gets the IP address latitude coordeinate
+#Gets the IP address latitude coordinate
 
 def ip_lat():
   loc = (get('https://ipapi.co/json/').json())
