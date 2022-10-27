@@ -5,4 +5,6 @@ from requests import get
 from requests import get
 
 loc = (get('https://ipapi.co/json/').json())
-print (loc['ip'])
+loc = loc['ip']
+print (f"Your public IP is: {loc}")
+
