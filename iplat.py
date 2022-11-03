@@ -5,4 +5,4 @@ from requests import get
 def ip_lat():
   loc = (get('https://ipapi.co/json/').json())
   loc = loc['latitude']
-  print (f"Your IP city location is: {loc}")
+  print (f"Your IP city lattitude is: {loc}")
